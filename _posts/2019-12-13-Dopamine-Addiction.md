@@ -5,8 +5,6 @@ title: Dopamine Addiction
 
 Take a look at these pictures, Do you see any particular common pattern ?
 
-
-
 ![Image description](/images/blog_1_image_1.png)
 
 
