@@ -14,6 +14,8 @@ avatar: https://avatars.githubusercontent.com/mayank10j
 #
 # Flags below are optional
 #
+excerpt_separator: <!–break–>
+
 
 # Includes an icon in the footer for each username you enter
 footer-links:
