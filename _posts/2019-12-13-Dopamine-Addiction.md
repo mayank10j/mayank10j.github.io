@@ -12,7 +12,7 @@ Take a look at these pictures, Do you see any particular common pattern ?
 Completing all of these activities gives your brain a reward, As soon as you complete them.
 Reason for these is brain chemical called Dopamine.
 
-
+<!–break–>
 
 ![Image description](/images/blog_1_image_2.png)
 
