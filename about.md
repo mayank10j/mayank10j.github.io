@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Manager Technology/AI Architect at Publicis.Sapient Innovation hub keplerlab
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Working on problems involving how to make computers see, read and think using Deep learning,
+computer vision, NLP and machine learning. 
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:mayank10.j@gmail.com)
