@@ -14,4 +14,4 @@ computer vision, NLP and machine learning.
 
 ### Contact me
 
-[email@domain.com](mailto:mayank10.j@gmail.com)
+[mayank10.j@gmail.com](mailto:mayank10.j@gmail.com)
