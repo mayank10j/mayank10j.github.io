@@ -13,7 +13,7 @@ Completing all of these activities gives your brain a reward, As soon as you com
 Reason for these is brain chemical called Dopamine.
 
 
-<!–break–>
+[//]: # <!–break–>
 
 ![Image description](/images/blog_1_image_2.png)
 
