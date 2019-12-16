@@ -7,10 +7,12 @@ Can you guess who this person is ?
  
  
 ![Image Credits: GFDL. Permission of Martin Streicher, Editor-in-Chief, LINUXMAG.com](/images/blog_2_image_1.jpeg)
- 
+
+[//]: # <!–break–>
+
 Most of you may already know him pretty well, He is Linus Torvalds, Most famously known as creator and principal developer of Linux operating system/Kernel. Most of the data centers, supercomputers , mobile phones , smart TVs and everyday devices you use are run on the operating system developed by Linus. It is more popular than windows ever was, Bill Gates is the world's wealthiest person because of windows but Linus Torvalds gave away his operating system for free. But this blog post is not about Linux. It is about another one of his projects that he gave away.
  
-[//]: # <!–break–>
+
 
  
 Not all of you people may know that he is also the creator of other world changing software. GIT. Almost every software developer know git by either working on git in their project or because of GitHub which is primary source of open source software in the world. Almost all software problems nowadays gets first solved by GitHub and stack overflow.
