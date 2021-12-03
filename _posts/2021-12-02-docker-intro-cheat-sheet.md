@@ -142,6 +142,13 @@ CMD ["flask","run"]
 so basically WORKDIR keyword defines a directory from which your docker container will start when you start the container. 
 using CMD command you can define which command you want to run after your docker container is run after build process id done.
 
+#### ADD keyword
+Although it is not mentioned in my sample dockerfile, but if you want to add an host folder to an docker container you can use 
+ADD keyword in Dockerfile like this: 
+```
+ADD . /path/inside/docker/container
+```
+Please note that, any changes made to this directory on the host after building the dockerfile will not show up in the container. This is because when building a container, docker compresses the directory into a .tar and uploads that context into the container permanently. 
 
 ### Building docker container
 
@@ -155,10 +162,21 @@ docker build -f /path/to/a/Dockerfile .
 ```
 Using -t option you can define what should be the name of docker container after it is built from dockerfile. 
 ```
-docker build -t dockercontainerName .
+docker build -t dockerContainerName .
 ```
 
 ### RUN docker container
-After you are done building a dockerfile using docker build command like this `docker build -t dockercontainerName .`
-you can run that docker container using command: 
-`docker run -d nodebb`
+After you are done building a dockerfile using docker build command above you can then run docker container using command: 
+```
+docker run -d nodebb
+```
+
+We will now explore useful commmand line options for docker RUN.
+
+#### MOUNT host directory to a docker container using -v :
+this will mount host directory `/tmp` to a folder inside container `/container/directory`
+```
+docker run -v /tmp:/container/directory dockerContainerName
+```
+Please note any existing content of /container/directory will get hidden after this mount option. 
+
