@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Manager Technology/AI Architect at Publicis.Sapient Innovation hub keplerlab
+Assistant Vice President at EXL
 
 ### More Information
 
