@@ -6,7 +6,7 @@ title: Docker Cheat Sheet
 This post i have created to bookmark so that i do not forget most important docker commands and basic syntax of Dockerfile
 
 
-#### Building docker container from dockerfile in local same folder
+### Building docker container from dockerfile in local same folder
 
 ```
 docker build . 
@@ -15,7 +15,7 @@ docker build -f /path/to/a/Dockerfile .
 ```
 
 
-#### Dockerfile Syntax
+### Dockerfile Syntax
 Take a look at one of the dockerfile i had built for one of our open source project idea2life 
 hosted here. 
 https://github.com/keplerlab/idea2life/blob/master/ai/Dockerfile
@@ -95,6 +95,7 @@ I will suggest to keep referring to this dockerfile to know what is being done h
 We will go to each section of dockerfile one by one to explain what it is doing. 
 First checkout few lines. 
 
+#### FROM, ARG and RUN keyword 
 ```
 FROM ubuntu:16.04
 
@@ -121,6 +122,7 @@ and applying it to system wide on your docker container.
 `RUN  apt-get update && apt-get install ... ` is command to tell Docker build system to run a command line command while 
 building container. Please note docker actually builds container into layers, each layer is immutable and stacks on top of each other. So it is always good idea to combine multiple command line command into single RUN command so in order to prevent layer bloat. As each docker layer consumes additional storage space. In order to fit multiple lines of commands into single RUN command we usually put escape character `\` and immediately press `enter/newline`.
 
+#### COPY keyword 
 I will now skip next few lines as they seem to be self explanatory, we are installing bunch of libraries like nodejs, anaconda, 
 opencv sphinx, making a  etc there. 
 Take a look at very important new command that is COPY command. 
@@ -130,5 +132,4 @@ COPY data/obj.names ${PROJECT_DIR}/lib/pyyolo/darknet/data/
 ```
 What it does? While building docker container from dockerfile it copies these files from folder where you are building
 docker container to a folder inside docker container.
-
 
