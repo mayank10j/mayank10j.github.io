@@ -6,14 +6,6 @@ title: Docker Cheat Sheet
 This post i have created to bookmark so that i do not forget most important docker commands and basic syntax of Dockerfile
 
 
-### Building docker container from dockerfile in local same folder
-
-```
-docker build . 
-OR 
-docker build -f /path/to/a/Dockerfile .
-```
-
 
 ### Dockerfile Syntax
 Take a look at one of the dockerfile i had built for one of our open source project idea2life 
@@ -149,3 +141,24 @@ CMD ["flask","run"]
 ```
 so basically WORKDIR keyword defines a directory from which your docker container will start when you start the container. 
 using CMD command you can define which command you want to run after your docker container is run after build process id done.
+
+
+### Building docker container from dockerfile in local same folder
+
+```
+docker build . 
+OR 
+docker build -f /path/to/a/Dockerfile .
+```
+using -f argument you can define path to dockerfile instead of picking docker file from your current folder. 
+
+```
+docker build -t dockercontainerName .
+```
+using -t option you can define what should be the name of docker container after it is built from dockerfile. 
+
+### RUN an docker container 
+After you are done building a dockerfile using docker build command like this `docker build -t dockercontainerName .`
+you can run that docker container using command: 
+
+`docker run -d nodebb`
