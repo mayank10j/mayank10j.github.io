@@ -143,22 +143,22 @@ so basically WORKDIR keyword defines a directory from which your docker containe
 using CMD command you can define which command you want to run after your docker container is run after build process id done.
 
 
-### Building docker container from dockerfile in local same folder
+### Building docker container
 
+Building docker container from dockerfile in local same folder
 ```
 docker build . 
-OR 
-docker build -f /path/to/a/Dockerfile .
 ```
 using -f argument you can define path to dockerfile instead of picking docker file from your current folder. 
-
+```
+docker build -f /path/to/a/Dockerfile .
+```
+Using -t option you can define what should be the name of docker container after it is built from dockerfile. 
 ```
 docker build -t dockercontainerName .
 ```
-using -t option you can define what should be the name of docker container after it is built from dockerfile. 
 
 ### RUN docker container
 After you are done building a dockerfile using docker build command like this `docker build -t dockercontainerName .`
 you can run that docker container using command: 
-
 `docker run -d nodebb`
