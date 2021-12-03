@@ -139,3 +139,13 @@ docker container to a folder inside docker container.
 ARG and ENV both keywords can actually define environment variables, but lifetime of these environment variables is different. 
 ARG based environment variables are only available during docker build state but ENV based environment variables are also available during docker build as well as run phase. So if you use want to define any environment variable that you want available inside your python programme during runtime you should define them using ENV keyword.
 
+#### WORKDIR and CMD keyword
+Take a look at last few lines of our dockerfile 
+```
+WORKDIR ${PROJECT_DIR}
+ENV FLASK_APP server/app.py
+ENV FLASK_RUN_HOST 0.0.0.0
+CMD ["flask","run"]
+```
+so basically WORKDIR keyword defines a directory from which your docker container will start when you start the container. 
+using CMD command you can define which command you want to run after your docker container is run after build process id done.
