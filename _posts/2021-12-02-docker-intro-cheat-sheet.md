@@ -157,7 +157,7 @@ docker build -t dockercontainerName .
 ```
 using -t option you can define what should be the name of docker container after it is built from dockerfile. 
 
-### RUN an docker container 
+### RUN docker container
 After you are done building a dockerfile using docker build command like this `docker build -t dockercontainerName .`
 you can run that docker container using command: 
 
