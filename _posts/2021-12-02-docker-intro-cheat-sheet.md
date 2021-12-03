@@ -180,3 +180,10 @@ docker run -v /tmp:/container/directory dockerContainerName
 ```
 Please note any existing content of /container/directory will get hidden after this mount option. 
 
+
+#### Map/Expose port from docker contanier using -p option: 
+```
+sudo docker run -p 22 -p 8000:80 dockerContainerName
+```
+here we are exposing 22 port of docker container to host, also we are opening 80 port of docker container to 8888 port 
+of host. 
