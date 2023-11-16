@@ -13,8 +13,8 @@ computer vision, NLP and machine learning.
 
 ### Publications 
 
- * Nipun Pande, Mayank Jain, Dhawal Kapil and Prithwijit Guha,The Video Face Book, The 18th International Conference on Multi Media Modelling (MMM 2012), Klagenfurt (Austria), January 4-6, 2012 [link here](https://link.springer.com/chapter/10.1007/978-3-642-27355-1_46)
- * Prithwijit Guha, Mayank Jain, Nipun Pande and Tavleen Oberoi, Multiple Face Tracking with Appearance Modes and Reasoning, The 15th International Conference on Image Processing, Com- puter Vision and Pattern Recognition (IPCV 2011), pp. 375-380, Las Vegas, July 18-21, 2011 [link] (https://worldcomp-proceedings.com/proc/p2011/IPC4785.pdf)
+ * Nipun Pande, Mayank Jain, Dhawal Kapil and Prithwijit Guha,The Video Face Book, The 18th International Conference on Multi Media Modelling (MMM 2012), Klagenfurt (Austria), January 4-6, 2012 [link](https://link.springer.com/chapter/10.1007/978-3-642-27355-1_46)
+ * Prithwijit Guha, Mayank Jain, Nipun Pande and Tavleen Oberoi, Multiple Face Tracking with Appearance Modes and Reasoning, The 15th International Conference on Image Processing, Com- puter Vision and Pattern Recognition (IPCV 2011), pp. 375-380, Las Vegas, July 18-21, 2011 [link](https://worldcomp-proceedings.com/proc/p2011/IPC4785.pdf)
  * [Using blockchain technology for loyalty schemes](https://www.thehindubusinessline.com/catalyst/using-blockchain-technology-for-loyalty-schemes/article23700167.ece)
 
 ### Patents
